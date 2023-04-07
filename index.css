@@ -1,0 +1,99 @@
+html{
+  margin: 0px;
+  padding: 0px;
+  
+  max-width: 1320px;
+}
+
+body{
+  max-width: 1320px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.button{
+    background-color: rgb(231, 195, 95);
+    width: 100px;
+   
+
+}
+
+
+
+.date{
+    border: 2px solid rgb(166, 161, 161);
+    background-color: rgb(215, 209, 209);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 3px;
+    text-align: center;
+}
+
+.mb-3{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    background-color: black;    
+    width: 1320px;
+    
+}
+.ch1{
+    flex-grow: 2;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ch2{
+    flex-grow: 1;
+    min-width: 100px;
+    padding-top: 30px;
+}
+.ch3{
+    flex-grow: 1;
+    min-width: 100px;
+    padding-top: 30px;
+}
+.ch4{
+    flex-grow: 1;
+    min-width: 100px;
+    padding-top: 30px;
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  
+  
+}
+.navbar-expand-lg .navbar-collapse{
+  justify-content: center;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width:641px){
+    
+    .parent{
+      display: none;
+    }
+
+    .background{
+      display: none;
+    }
+  
+}
